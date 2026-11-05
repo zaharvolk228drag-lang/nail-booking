@@ -1,0 +1,181 @@
+{
+  "services": [
+    {
+      "id": "classic",
+      "title": "Маникюр",
+      "description": "Форма, кутикула, уход",
+      "duration": 60,
+      "price": 1800,
+      "category": "Маникюр",
+      "image": "/assets/photo-nude-hands.jpg",
+      "active": true
+    },
+    {
+      "id": "cover",
+      "title": "Маникюр + покрытие",
+      "description": "Стойкое покрытие и уход",
+      "duration": 90,
+      "price": 2600,
+      "category": "Маникюр",
+      "image": "/assets/photo-manicure-session.jpg",
+      "active": true
+    },
+    {
+      "id": "design",
+      "title": "Дизайн",
+      "description": "Акцентные ногти и детали",
+      "duration": 30,
+      "price": 900,
+      "category": "Дизайн ногтей",
+      "image": "/assets/photo-nail-art.jpg",
+      "active": true
+    },
+    {
+      "id": "pedicure",
+      "title": "Педикюр с покрытием",
+      "description": "Уход, форма и стойкое покрытие",
+      "duration": 90,
+      "price": 2800,
+      "category": "Педикюр",
+      "image": "/assets/photo-beige-pearls.jpg",
+      "active": true
+    },
+    {
+      "id": "extension",
+      "title": "Наращивание",
+      "description": "Моделирование и идеальная форма",
+      "duration": 150,
+      "price": 4200,
+      "category": "Наращивание",
+      "image": "/assets/photo-nail-art.jpg",
+      "active": true
+    },
+    {
+      "id": "removal",
+      "title": "Снятие покрытия",
+      "description": "Бережное снятие без повреждений",
+      "duration": 30,
+      "price": 700,
+      "category": "Снятие покрытия",
+      "image": "/assets/photo-manicure-session.jpg",
+      "active": true
+    }
+  ],
+  "masters": [
+    {
+      "id": "anna",
+      "name": "Анна Смирнова",
+      "specialization": "Маникюр и дизайн",
+      "experience": "7 лет опыта",
+      "rating": 4.9,
+      "image": "/assets/master-anna.jpg"
+    },
+    {
+      "id": "elena",
+      "name": "Елена Орлова",
+      "specialization": "Наращивание и педикюр",
+      "experience": "5 лет опыта",
+      "rating": 4.8,
+      "image": "/assets/master-elena.jpg"
+    },
+    {
+      "id": "maria",
+      "name": "Мария Ким",
+      "specialization": "Минималистичный дизайн",
+      "experience": "4 года опыта",
+      "rating": 5,
+      "image": "/assets/master-maria.jpg"
+    }
+  ],
+  "settings": {
+    "address": "ул. Большая Никитская, 24",
+    "phone": "+375 29 123-45-67"
+  },
+  "news": [
+    {
+      "title": "Cherry season",
+      "text": "-15% на вишнёвые оттенки до конца недели",
+      "tag": "АКЦИЯ"
+    },
+    {
+      "title": "Уход после маникюра",
+      "text": "5 минут заботы, которые продлевают стойкость",
+      "tag": "СОВЕТ"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Виктория",
+      "text": "Очень аккуратно и красиво. Записалась за минуту!",
+      "rating": 5
+    },
+    {
+      "name": "Алина",
+      "text": "Люблю спокойную атмосферу и идеальную форму ногтей.",
+      "rating": 5
+    }
+  ],
+  "advantages": [
+    "Онлайн-запись 24/7",
+    "Напоминание о визите",
+    "Гарантия на покрытие 7 дней"
+  ],
+  "slots": [
+    {
+      "id": "2026-11-05-10:00",
+      "date": "2026-11-05",
+      "time": "10:00",
+      "available": false
+    },
+    {
+      "id": "2026-11-05-12:30",
+      "date": "2026-11-05",
+      "time": "12:30",
+      "available": false,
+      "reason": "Занято"
+    },
+    {
+      "id": "2026-11-05-15:00",
+      "date": "2026-11-05",
+      "time": "15:00",
+      "available": true
+    },
+    {
+      "id": "2026-11-05-17:30",
+      "date": "2026-11-05",
+      "time": "17:30",
+      "available": true
+    },
+    {
+      "id": "2026-11-06-11:00",
+      "date": "2026-11-06",
+      "time": "11:00",
+      "available": true
+    },
+    {
+      "id": "2026-11-06-14:00",
+      "date": "2026-11-06",
+      "time": "14:00",
+      "available": true
+    }
+  ],
+  "bookings": [
+    {
+      "id": "dab846a7-beff-49bd-bed6-a40fa004aeb5",
+      "userId": 1509034539,
+      "userName": "Demo Клиент",
+      "phone": "+375291234567",
+      "username": "",
+      "serviceId": "classic",
+      "serviceTitle": "Маникюр",
+      "masterId": "anna",
+      "masterName": "Анна Смирнова",
+      "date": "2026-11-05",
+      "time": "10:00",
+      "comment": "",
+      "status": "pending",
+      "createdAt": "2026-11-04T15:53:04.946Z"
+    }
+  ]
+}
+
